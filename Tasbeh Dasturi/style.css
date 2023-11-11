@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #333;
+}
+.container{
+    width: 200px;
+    height: 230px;
+    border-radius: 15px;
+    background-color: orange;
+}
+.container header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.container header input{
+    width: 90%;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+.container .box_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.container .box_btn .add_number{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #333;
+}
+.container .box_btn .del_number{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: #777;
+}
